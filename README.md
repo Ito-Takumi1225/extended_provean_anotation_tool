@@ -21,7 +21,7 @@ install(linux)
 
 Usage  
 
-bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i [path to input vcf file] -d [path to your workdir] -s [path to snpEff.jar] -r [] -p [path to provean.sh]
+bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i [path to input vcf file] -d [path to your workdir] -s [path to snpEff.jar] -r [Reference dataset name] -p [path to provean.sh]
 
 Ex. bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i  [path to extended_provean_anotation_tool dir]/example/test.1KG.ann.vcf -d  [path to extended_provean_anotation_tool dir]/example/work -s [path to snpEff.jar] -r [hg38] -p [path to provean.sh]
 

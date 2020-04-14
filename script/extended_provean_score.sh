@@ -52,6 +52,7 @@ if [ -n "${VALUE_I}" ] ; then
                                     cat ${VALUE_I} |grep MODERATE >> ${VALUE_D}/db/tmp_${vcf_name}
                                     python ${script_dir}/excel_convert_tool.py ${VALUE_D}/db/tmp_${vcf_name} ${vcf_name} ${VALUE_D}
                                     for Inputfile in `ls ${VALUE_D}/db/*xlsx` ; do python ${script_dir}/provean_score.py ${Inputfile} ${VALUE_D} ${VALUE_S} ${VALUE_R} ${VALUE_P} ${script_dir} ; done
+                                    rm ${VALUE_D}/db/*xlsx
                                 else 
                                     echo "Error: ${VALUE_P} not found"
                                 fi
