@@ -15,9 +15,9 @@ requirement
 ・python module(sys,subprocess.xlrd,openpyxl,os.re)  
 
 
-install(linux)
-1.download  
-2.
+install(linux)  
+1.download "extended_provean_anotation_tool.zip" from github  
+2.unzip extended_provean_anotation_tool.zip  
 
 Usage  
 
