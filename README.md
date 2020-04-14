@@ -25,5 +25,5 @@ bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score
 
 Ex. bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i  [path to extended_provean_anotation_tool dir]/example/test.1KG.ann.vcf -d  [path to extended_provean_anotation_tool dir]/example/work -s [path to snpEff.jar] -r [hg38] -p [path to provean.sh]
 
-
+LISENSE
 
