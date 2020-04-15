@@ -16,7 +16,7 @@ requirement
 
 
 install(linux)  
-1.download "extended_provean_anotation_tool.zip" from github  
+1.download "extended_provean_anotation_tool" from github  
 (git clone https://github.com/Ito-Takumi1225/extended_provean_anotation_tool.git)
 
 Usage  
