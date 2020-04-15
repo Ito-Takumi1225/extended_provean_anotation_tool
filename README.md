@@ -25,7 +25,8 @@ Usage
 
 `bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i [path to input vcf file] -d [path to your workdir] -s [path to snpEff.jar] -r [Reference dataset name] -p [path to provean.sh]`
 
-Ex.` bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i  [path to extended_provean_anotation_tool dir]/example/test.1KG.ann.vcf -d  [path to extended_provean_anotation_tool dir]/example/work -s [path to snpEff.jar] -r [hg38] -p [path to provean.sh]  `
+Ex.  
+` bash [path to extended_provean_anotation_tool dir]/script/extended_provean_score.sh  -i  [path to extended_provean_anotation_tool dir]/example/test.1KG.ann.vcf -d  [path to extended_provean_anotation_tool dir]/example/work -s [path to snpEff.jar] -r [hg38] -p [path to provean.sh]  `
 
 ・Output file is excel file format and this output file exists in the [path to workdir]/output/  
 ・Outfile name is out_[input file pre-fix].xlsx  
@@ -33,7 +34,7 @@ Ex.` bash [path to extended_provean_anotation_tool dir]/script/extended_provean_
 ・Values for the effect of amino acid mutations on a protein's biological function are given in the provean_score line.  
 ・If the value is less than -2.5, describe D. If the value is greater than -2.5, describe N in the proven_pred line.  
 ・If it cannot be calculated with the conventional providen, the mutation name is added after the providen_score and providen_pred.  
-(ex -4.5_stopgain,D_stopgain)
+ (ex -4.5_stopgain,D_stopgain)
 
 
 LISENSE
