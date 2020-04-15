@@ -1,13 +1,13 @@
 # extended_provean_anotation_tool
 
-Use extended_provean_anotation_tool to check how harmful each mutation is from the vcf file annotated with snpEff
+## Use extended_provean_anotation_tool to check how harmful each mutation is from the vcf file annotated with snpEff
 
 - Existing providens and other tools that calculate mutation influence on biological function can't calculate frameshift or splicing variant influence.  
 - I developed this tool and succeeded in calculating the damage of each mutation including frameshift and splicing variant from a vcf file annotated with snpEff.  
 - Furthermore, these calculation results can be given as an Excel file.  
 
 
-requirement  
+## requirement  
 
 - PROVEAN v.1.1.5(including NCBI BLAST, CDHIT, and nr database)  (http://provean.jcvi.org/downloads.php)  
 - SnpEff  (http://snpeff.sourceforge.net/)  
@@ -15,11 +15,11 @@ requirement
 - python module(sys,subprocess.xlrd,openpyxl,os.re)  
 
 
-install (linux)  
+## install (linux)  
 1.download "extended_provean_anotation_tool" from github  
 (git clone https://github.com/Ito-Takumi1225/extended_provean_anotation_tool.git)
 
-Usage  
+## Usage  
 
 - Inputfile is vcf file after SnpEff analysis  
 
@@ -37,5 +37,5 @@ Ex.
  - (ex -4.5_stopgain,D_stopgain)
 
 
-LISENSE
+## LISENSE
 
